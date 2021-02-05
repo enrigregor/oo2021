@@ -35,7 +35,7 @@ public class Second {
 
     public static void myMath(){
         System.out.println(Math.pow(5, 2));
-        int number = Math.pow(5,2); // casting
+        int number = (int) Math.pow(5,2); // casting
         System.out.println(number);
 
         System.out.println(Math.sqrt(9));
@@ -48,8 +48,8 @@ public class Second {
     }
 
     public static void areStringsEqual(){
-        String name1 = "Enri"
-        String name2 = "Enri"
+        String name1 = "Enri";
+        String name2 = "Enri";
 
         System.out.println(name1 == name2);
 
