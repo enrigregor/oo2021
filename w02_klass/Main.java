@@ -36,7 +36,7 @@ public class Main {
     }
 
      public static void lists(){
-        
+         
         String[] stringArray = new String[5];
         int[] numberArray = new int[5];
 
