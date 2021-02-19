@@ -45,3 +45,7 @@ public class Lessonwork {
         System.out.println(utilities);
       }
 }
+
+//Hashmapis peab olema ära märgitud võti ehk key ning sellega mingi väärtus (e value)
+
+//hashset on põhimõtteliselt list kus asjad/väärtused ei kordu
