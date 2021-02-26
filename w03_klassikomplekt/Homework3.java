@@ -14,7 +14,7 @@ public class Homework3 {
         }
         //print osa
         if (numberOfLetters > 0) {
-            System.out.println(letter+"="+numberOfLetters);
+            System.out.println(letter+"- "+numberOfLetters);
             numberOfLetters = 0;
             }
         }
