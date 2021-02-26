@@ -1,0 +1,7 @@
+Tere! 
+Koduseks tööks täiendasin tunnis tehtud mängu. Muudetud sai Game.java ja World.java ning
+juurde lisanudsid GameItems.java, InventoryItems.java ja ItemShops.java.
+Mängu mõte on kive koguda. Alguses on inventory slot-e päris vähe ning 
+olemas olevad kivid tuleb maha müüa, et saaks omale poest inventory kohti juurde osta.
+
+Teise osa jaoks (fail Homework3.java) võitsin esimese variandi.

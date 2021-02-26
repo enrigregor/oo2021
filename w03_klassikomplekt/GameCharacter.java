@@ -5,9 +5,12 @@ public class GameCharacter {
     private char symbol;
     public boolean isVisible = true;
 
+
     private Direction direction;
 
     private GameCharacterType gameCharacterType;
+
+    
 
     public GameCharacter(String name, int x, int y, char symbol, GameCharacterType gameCharacterType){
         this.name = name;
