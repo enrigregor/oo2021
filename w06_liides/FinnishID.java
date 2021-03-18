@@ -58,5 +58,17 @@ public class FinnishID implements PersonalCodeBehaviour{
 
         return day+"."+date+"."+fullYear;
     }
+
+    @Override
+    public String getMonth() {
+        int date = Integer.parseInt(code.substring(2, 4));
+        return "Mitmes kuu: "+date;
+    }
+
+    @Override
+    public int getDay() {
+        int day = Integer.parseInt(code.substring(0, 2));
+        return day;
+    }
     
 }

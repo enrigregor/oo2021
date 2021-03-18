@@ -41,8 +41,27 @@ public class EstonianID implements PersonalCodeBehaviour{
 
     @Override
     public String getDOB() {
-        // TODO Auto-generated method stub
-        return "Pärast teen";
+        int Year = Integer.parseInt(code.substring(1, 3));
+        int Month = Integer.parseInt(code.substring(3, 5));
+        int Day = Integer.parseInt(code.substring(5, 7));
+        if(Year < 22){
+            return Day + "." + Month + "." + (2000 + Year);
+        } else {
+            return Day + "." + Month + "." + (1900 + Year);
+        }
+    }
+
+    @Override
+    public String getMonth() {
+        int Month = Integer.parseInt(code.substring(3, 5));
+
+        return "Mitmes kuu:"+Month;
+    }
+
+    @Override
+    public int getDay() {
+       int Day = Integer.parseInt(code.substring(5, 7));
+        return Day;
     }
     
 }
