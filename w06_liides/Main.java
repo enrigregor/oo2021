@@ -2,6 +2,8 @@ public class Main {
     public static void main(String[] args){
 
         EstonianID est = new EstonianID("50108232013");
+
+        
         FinnishID fin = new FinnishID("100190-003K");
 
         System.out.println(est.getGender());
