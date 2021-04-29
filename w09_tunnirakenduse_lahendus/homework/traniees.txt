@@ -1,0 +1,9 @@
+Albert,4,13
+Keisha,4,11
+Martin,5,18
+Michael,2,4
+Oskar,4,14
+Ethan,3,8
+Carmen,2,4
+John,3,9
+Brian,5,17
