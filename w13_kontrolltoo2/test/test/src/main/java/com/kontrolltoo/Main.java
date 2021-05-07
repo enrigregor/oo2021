@@ -15,8 +15,14 @@ public class Main {
         } else {
             char letterChar = letterInput.charAt(0);  
             Word word = new Word(wordInput, letterChar);
+            System.out.println();
             System.out.println(word.getLetterCount());
         }
+
+        System.out.println("Please write a sentence: ");
+        String sentenceInput = input.nextLine();
+        Sentence sentence = new Sentence(sentenceInput);
+        System.out.println(sentence.getWordCount());
         
         input.close();
     }

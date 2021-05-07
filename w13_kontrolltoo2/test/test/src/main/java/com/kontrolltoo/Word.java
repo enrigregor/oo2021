@@ -9,6 +9,7 @@ public class Word implements LetterInterface{
         this.letter = letter;
     }
 
+
     @Override
     public int getLetterCount() {
         int length = word.length();
@@ -19,6 +20,22 @@ public class Word implements LetterInterface{
             }
         }
         return counter;
+    }
+
+
+    @Override
+    public int getWordCount() {
+        return 0;
+    }
+
+    @Override
+    public int getLetterCountPerWord() {
+        return 0;
+    }
+    
+    @Override
+    public int getLetterCountInSentence() {
+        return 0;
     }
     
 }
