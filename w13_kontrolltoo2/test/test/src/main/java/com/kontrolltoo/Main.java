@@ -1,5 +1,6 @@
 package com.kontrolltoo;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -23,6 +24,7 @@ public class Main {
         String sentenceInput = input.nextLine();
         Sentence sentence = new Sentence(sentenceInput);
         System.out.println(sentence.getWordCount());
+        System.out.println(Arrays.toString(sentence.getLetterCountPerWord()));
         
         input.close();
     }

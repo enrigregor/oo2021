@@ -15,17 +15,35 @@ public class Sentence implements LetterInterface {
     @Override
     public int getWordCount() {
         String[] words = sentence.split(" ");
-        System.out.println(words);
+        int counter = 0;
         for (String a : words){
-            System.out.println(a);
+           // System.out.println(a);
+            counter++;
         }
-        return 0;
+        return counter;
     }
 
     @Override
-    public int getLetterCountPerWord() {
-
-        return 0;
+    public int[] getLetterCountPerWord() {
+        String[] words = sentence.split(" ");
+        int arraySize = 0;
+        for (String a : words){
+            arraySize++;
+        }
+        int[] c = new int[arraySize];
+        for (int i = 0; i < words.length; i++){
+            int counter = 0;
+            String word = words[i];
+            int length = word.length();
+            for (int j = 0; j < length; j++){
+                if(word.charAt(j) == 'a'){
+                    counter++;
+                }
+            }
+            c[i] = counter;
+            System.out.println(c[i]);
+        }
+        return c;
     }
 
     @Override

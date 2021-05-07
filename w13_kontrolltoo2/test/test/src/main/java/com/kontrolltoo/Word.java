@@ -29,10 +29,10 @@ public class Word implements LetterInterface{
     }
 
     @Override
-    public int getLetterCountPerWord() {
-        return 0;
+    public int[] getLetterCountPerWord() {
+        return null;
     }
-    
+
     @Override
     public int getLetterCountInSentence() {
         return 0;
