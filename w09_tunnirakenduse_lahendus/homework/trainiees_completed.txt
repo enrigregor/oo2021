@@ -1,0 +1,7 @@
+Name: Albert| Number of errors fixed: 13| Added workspace points: 4
+Name: Keisha| Number of errors fixed: 11| Added workspace points: 4
+Name: Martin| Number of errors fixed: 18| Added workspace points: 5
+Name: Oskar| Number of errors fixed: 14| Added workspace points: 4
+Name: Ethan| Number of errors fixed: 8| Added workspace points: 3
+Name: John| Number of errors fixed: 9| Added workspace points: 3
+Name: Brian| Number of errors fixed: 17| Added workspace points: 5
