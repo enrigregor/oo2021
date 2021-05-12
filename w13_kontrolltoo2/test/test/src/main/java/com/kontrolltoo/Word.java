@@ -21,21 +21,5 @@ public class Word implements LetterInterface{
         }
         return counter;
     }
-
-
-    @Override
-    public int getWordCount() {
-        return 0;
-    }
-
-    @Override
-    public int[] getLetterCountPerWord() {
-        return null;
-    }
-
-    @Override
-    public int getLetterCountInSentence() {
-        return 0;
-    }
     
 }
